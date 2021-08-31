@@ -1,0 +1,19 @@
+{
+	"name": "MongoDB ObjectId extension",
+	"description": "Generate a MongoDB ObjectId",
+	"developer_name": "sa-0001",
+	"required_api_version": "^2.0.0",
+	"icon": "images/icon.png",
+	"options": {
+		"query_debounce": 0.1
+	},
+	"preferences": [
+		{
+			"id": "keyword",
+			"type": "keyword",
+			"name": "oid",
+			"description": "MongoDB ObjectId extension",
+			"default_value": "oid"
+		}
+	]
+}
